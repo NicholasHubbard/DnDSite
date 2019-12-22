@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/DnDSite/static/css/main.b100e6da.chunk.css",
+    "main.js": "/DnDSite/static/js/main.e4f24fff.chunk.js",
+    "main.js.map": "/DnDSite/static/js/main.e4f24fff.chunk.js.map",
+    "runtime-main.js": "/DnDSite/static/js/runtime-main.718ef516.js",
+    "runtime-main.js.map": "/DnDSite/static/js/runtime-main.718ef516.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/DnDSite/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.ba6f5b50.chunk.js": "/DnDSite/static/js/2.ba6f5b50.chunk.js",
+    "static/js/2.ba6f5b50.chunk.js.map": "/DnDSite/static/js/2.ba6f5b50.chunk.js.map",
+    "index.html": "/DnDSite/index.html",
+    "precache-manifest.7f178d59e9aac5d42d95d1d365112605.js": "/DnDSite/precache-manifest.7f178d59e9aac5d42d95d1d365112605.js",
+    "service-worker.js": "/DnDSite/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/DnDSite/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "/DnDSite/static/css/main.b100e6da.chunk.css.map",
+    "static/media/UserImage.png": "/DnDSite/static/media/UserImage.22e9aec0.png",
+    "static/media/abilities.png": "/DnDSite/static/media/abilities.65424e39.png",
+    "static/media/critRole.jpg": "/DnDSite/static/media/critRole.1f5cd1e9.jpg",
+    "static/media/dndHome.jpg": "/DnDSite/static/media/dndHome.a1806c0e.jpg",
+    "static/media/dndLink.jpg": "/DnDSite/static/media/dndLink.eae36963.jpg",
+    "static/media/monster.jpeg": "/DnDSite/static/media/monster.85adf435.jpeg",
+    "static/media/spells.png": "/DnDSite/static/media/spells.b0ef4b28.png",
+    "static/media/titleIcon.png": "/DnDSite/static/media/titleIcon.a90e47c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.718ef516.js",
+    "static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.ba6f5b50.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.e4f24fff.chunk.js"
+  ]
+}
