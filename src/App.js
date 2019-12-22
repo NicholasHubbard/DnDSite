@@ -2,7 +2,12 @@
 
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  HashRouter
+} from "react-router-dom";
 import PageCarousel from "./components/pageCarousel/PageCarousel";
 import Races from "./components/races/Races";
 import Race from "./components/races/Race";
@@ -26,7 +31,7 @@ import Card3 from "./components/card/card3";
 function App() {
   return (
     // App page that creates the router layout for each section clicked on
-    <Router style={styles.backdrop}>
+    <HashRouter style={styles.backdrop}>
       <Header />
       <main>
         {/* Switch plug in that lets the SPA switch between each page within the app */}
@@ -97,7 +102,7 @@ function App() {
         </Switch>
       </main>
       {/*<Footer />*/}
-    </Router>
+    </HashRouter>
   );
 }
 
