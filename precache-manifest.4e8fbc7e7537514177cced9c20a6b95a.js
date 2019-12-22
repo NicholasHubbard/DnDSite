@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "103e430565cb14a512ad895a55640846",
+    "revision": "669de0e4709c2b84529e626cb24a39ac",
     "url": "/DnDSite/index.html"
   },
   {
-    "revision": "2de7bf3bc797400988e7",
+    "revision": "9cc430d6b655afc498df",
     "url": "/DnDSite/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "2445622956a5a682ae5f",
+    "revision": "709914f606dcf14713c4",
     "url": "/DnDSite/static/css/main.b100e6da.chunk.css"
   },
   {
-    "revision": "2de7bf3bc797400988e7",
-    "url": "/DnDSite/static/js/2.ba6f5b50.chunk.js"
+    "revision": "9cc430d6b655afc498df",
+    "url": "/DnDSite/static/js/2.aabc0712.chunk.js"
   },
   {
-    "revision": "2445622956a5a682ae5f",
-    "url": "/DnDSite/static/js/main.37b88003.chunk.js"
+    "revision": "709914f606dcf14713c4",
+    "url": "/DnDSite/static/js/main.770f0c9d.chunk.js"
   },
   {
     "revision": "f679b0bc2c2813dfdd59",
