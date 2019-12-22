@@ -37,7 +37,7 @@ function App() {
         {/* Switch plug in that lets the SPA switch between each page within the app */}
         <Switch>
           {/* Home Page */}
-          <Route path="/Home">
+          <Route exact path="/">
             <PageCarousel />
 
             {/* used cards as the highlight navigation for the home page */}

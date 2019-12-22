@@ -113,7 +113,7 @@ export default function PrimarySearchAppBar() {
       onClose={handleMenuClose}
     >
       <NavLink
-        to="/Home"
+        to="/"
         style={{
           textDecoration: "none",
           color: "black"
@@ -122,7 +122,7 @@ export default function PrimarySearchAppBar() {
         <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
       </NavLink>
       <NavLink
-        to="/Home"
+        to="/"
         style={{
           textDecoration: "none",
           color: "black"
@@ -145,7 +145,7 @@ export default function PrimarySearchAppBar() {
       onClose={handleIconClose}
     >
       <NavLink
-        to="/Home"
+        to="/"
         style={{
           textDecoration: "none",
           color: "black"
