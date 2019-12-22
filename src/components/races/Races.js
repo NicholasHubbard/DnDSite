@@ -12,7 +12,7 @@ class Races extends Component {
 
   // Fetch function
   componentDidMount() {
-    fetch("http://www.dnd5eapi.co/api/races/")
+    fetch("https://www.dnd5eapi.co/api/races/")
       .then(results => {
         return results.json();
       })
