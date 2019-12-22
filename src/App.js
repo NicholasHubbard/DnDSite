@@ -53,7 +53,7 @@ function App() {
           </Route>
 
           {/* Races page */}
-          <Route path="#/Races">
+          <Route path="/Races">
             <Paper style={styles.mainSearch1}>
               <h1 style={styles.anchor3}>Dungeons and Dragons Races</h1>
             </Paper>
@@ -62,14 +62,14 @@ function App() {
           </Route>
 
           {/* Race specific page */}
-          <Route path="#/Race">
+          <Route path="/Race">
             <Paper style={styles.main}>
               <Race />
             </Paper>
           </Route>
 
           {/* Spells Page */}
-          <Route path="#/Spells">
+          <Route path="/Spells">
             <Paper style={styles.mainSearch2}>
               <h1 style={styles.anchor3}>Dungeons and Dragons Spells</h1>
             </Paper>
@@ -78,14 +78,14 @@ function App() {
           </Route>
 
           {/* Spell specific page */}
-          <Route path="#/Spell">
+          <Route path="/Spell">
             <Paper style={styles.main}>
               <Spell />
             </Paper>
           </Route>
 
           {/* Monsters Page */}
-          <Route path="#/Monsters">
+          <Route path="/Monsters">
             <Paper style={styles.mainSearch3}>
               <h1 style={styles.anchor3}>Dungeons and Dragons Monsters</h1>
             </Paper>
@@ -94,7 +94,7 @@ function App() {
           </Route>
 
           {/* Monster specific page */}
-          <Route path="#/Monster">
+          <Route path="/Monster">
             <Paper style={styles.main}>
               <Monster />
             </Paper>

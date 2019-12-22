@@ -36,7 +36,7 @@ export default function MediaCard() {
 
   return (
     <Card className={classes.card}>
-      <CardActionArea href="#/Spells/">
+      <CardActionArea href="/Spells/">
         <CardMedia
           className={classes.media}
           style={{ backgroundPosition: "center top" }}
