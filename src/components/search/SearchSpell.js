@@ -15,6 +15,12 @@ function Spell() {
   useEffect(() => {
     fetch("http://www.dnd5eapi.co/api/spells/")
       .then(results => {
+        if (!results.ok) {
+          alert(
+            "API was unable to be pulled, please open your console to read why"
+          );
+          return;
+        }
         return results.json();
       })
       .then(data => {

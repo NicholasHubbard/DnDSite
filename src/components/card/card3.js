@@ -36,7 +36,7 @@ export default function MediaCard() {
 
   return (
     <Card className={classes.card}>
-      <CardActionArea href="/Monsters/">
+      <CardActionArea href="#/Monsters/">
         <CardMedia
           className={classes.media}
           style={{ backgroundPosition: "center top" }}
@@ -54,7 +54,7 @@ export default function MediaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.buttonLoc}>
-        <Button size="large" color="primary" href="/Monsters/">
+        <Button size="large" color="primary" href="#/Monsters/">
           See All Monsters
         </Button>
       </CardActions>
