@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import Spinner from "../spinner/Spinner";
+import { api_domain } from "../constants";
 
 // Function that points to a specific section with the API
 function Race() {
-  const raceURL = useLocation().state.raceURL;
   const [race, setRace] = useState(false);
-  const [url, setURL] = useState(raceURL);
+
+  // trouble shoote way of refreshing the page and taking out specific hashRouter text
+  const url = window.location.hash
+    .replace(/#\/Race/, "")
+    .replace(/%20/g, "-")
+    .toLowerCase();
 
   // fetch data pull from a specifc request
   useEffect(() => {
-    fetch(url)
+    fetch(api_domain + "/api/races" + url)
       .then(results => {
         return results.json();
       })
